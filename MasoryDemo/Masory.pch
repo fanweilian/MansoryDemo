@@ -1,0 +1,17 @@
+//
+//  Masory.pch
+//  MasoryDemo
+//
+//  Created by fanweilian on 2017/7/6.
+//  Copyright © 2017年 fanweilian. All rights reserved.
+//
+
+#ifndef Masory_pch
+#define Masory_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Masory_pch */
+
+#import "Masonry.h"
