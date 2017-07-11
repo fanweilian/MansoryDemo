@@ -34,6 +34,8 @@
 		49BC96561F0E3EBD00EC8665 /* CompositViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BC96551F0E3EBD00EC8665 /* CompositViewController.m */; };
 		49C5ECDB1F1363F2006F43C2 /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C5ECDA1F1363F2006F43C2 /* ScrollViewController.m */; };
 		49C5ECDE1F137AC0006F43C2 /* ComplexScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C5ECDD1F137AC0006F43C2 /* ComplexScrollViewController.m */; };
+		49C5ECE11F14A534006F43C2 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C5ECE01F14A534006F43C2 /* TableViewController.m */; };
+		49C5ECE41F14A5B6006F43C2 /* TestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C5ECE31F14A5B6006F43C2 /* TestCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +115,10 @@
 		49C5ECDA1F1363F2006F43C2 /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
 		49C5ECDC1F137AC0006F43C2 /* ComplexScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplexScrollViewController.h; sourceTree = "<group>"; };
 		49C5ECDD1F137AC0006F43C2 /* ComplexScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComplexScrollViewController.m; sourceTree = "<group>"; };
+		49C5ECDF1F14A534006F43C2 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		49C5ECE01F14A534006F43C2 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		49C5ECE21F14A5B6006F43C2 /* TestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCell.h; sourceTree = "<group>"; };
+		49C5ECE31F14A5B6006F43C2 /* TestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,8 +149,8 @@
 		49BC95DA1F0DD96E00EC8665 = {
 			isa = PBXGroup;
 			children = (
-				49BC96401F0DDB8E00EC8665 /* Controller */,
 				49BC96191F0DD99600EC8665 /* Masonry */,
+				49BC96401F0DDB8E00EC8665 /* Controller */,
 				49BC95E51F0DD96E00EC8665 /* MasoryDemo */,
 				49BC95FF1F0DD96E00EC8665 /* MasoryDemoTests */,
 				49BC960A1F0DD96E00EC8665 /* MasoryDemoUITests */,
@@ -257,6 +263,10 @@
 				49C5ECDA1F1363F2006F43C2 /* ScrollViewController.m */,
 				49C5ECDC1F137AC0006F43C2 /* ComplexScrollViewController.h */,
 				49C5ECDD1F137AC0006F43C2 /* ComplexScrollViewController.m */,
+				49C5ECDF1F14A534006F43C2 /* TableViewController.h */,
+				49C5ECE01F14A534006F43C2 /* TableViewController.m */,
+				49C5ECE21F14A5B6006F43C2 /* TestCell.h */,
+				49C5ECE31F14A5B6006F43C2 /* TestCell.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -398,6 +408,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49C5ECE41F14A5B6006F43C2 /* TestCell.m in Sources */,
 				49BC963C1F0DD99600EC8665 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				49BC963A1F0DD99600EC8665 /* MASViewConstraint.m in Sources */,
 				49BC96351F0DD99600EC8665 /* MASCompositeConstraint.m in Sources */,
@@ -409,6 +420,7 @@
 				49BC96461F0DDBF200EC8665 /* WLBaseViewController.m in Sources */,
 				49BC96381F0DD99600EC8665 /* MASLayoutConstraint.m in Sources */,
 				49BC95E81F0DD96E00EC8665 /* main.m in Sources */,
+				49C5ECE11F14A534006F43C2 /* TableViewController.m in Sources */,
 				49BC963E1F0DD99600EC8665 /* ViewController+MASAdditions.m in Sources */,
 				49BC963D1F0DD99600EC8665 /* View+MASAdditions.m in Sources */,
 				49C5ECDE1F137AC0006F43C2 /* ComplexScrollViewController.m in Sources */,

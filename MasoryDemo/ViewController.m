@@ -14,6 +14,7 @@
 #import "CompositViewController.h"
 #import "ScrollViewController.h"
 #import "ComplexScrollViewController.h"
+#import "TableViewController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -41,7 +42,8 @@
                          [[TotoalUpdateViewController alloc] initWithTitle:@"整体更新约束"],
                          [[CompositViewController alloc] initWithTitle:@"复合View约束"],
                          [[ScrollViewController alloc] initWithTitle:@"scrollView布局"],
-                         [[ComplexScrollViewController alloc] initWithTitle:@"复杂scrollView布局"]
+                         [[ComplexScrollViewController alloc] initWithTitle:@"复杂scrollView布局"],
+                         [[TableViewController alloc] initWithTitle:@"tableView布局"]
                          ];
     // Do any additional setup after loading the view, typically from a nib.
 }
